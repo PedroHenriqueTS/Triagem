@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma empresa focada em solucionar problemas eléticos, fornecendo um serviço de qualidade">
+    <link rel="shortcut icon" href="Icone/HTSLogo.ico" type="image/x-icon">
+    <title>Triagem</title>
+
+    <!-- página de icones -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- página do css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- menu -->
+
+    <header class="header">
+        <!-- <a class="logo" href="#">Portfolio</a> -->
+        <img class="logo-imagem" src="Img/Eng.png" alt="HTS - Serviços Elétricos">
+
+        <i class="bx bx-menu" id="menu-icone"></i>
+
+        <nav class="navbar">
+            <a href="#contato" class="action">Cadastrar</a>
+        </nav>
+    </header>
+
+    <!-- cadastro -->
+    <section class="contato" id="contato">
+        <h2 class="cabecalho">Cadastre <span>Aqui!</span></h2>
+
+        <form id='formulario'>
+            <div class="caixa-entrada">
+                <input type="text" placeholder="Nome do Colaborador" name='nome' id='nome' autocomplete="off">
+                <input type="time" placeholder="Hora" name='hora' id='hora' autocomplete="off">
+            </div>
+            <div class="caixa-entrada">
+                <input type="text" placeholder="Local" name="local" id="local" autocomplete="off">
+                <input type="date" placeholder="Data" name='data' id='data' autocomplete="off">
+            </div>
+            <textarea name="" id="mensagem" cols="30" rows="10" placeholder="Descrição do Problema" autocomplete="off"></textarea>
+            <input type="submit" value="Finalizar Cadastro" class="btn">
+        </form>
+    </section>
+
+    <!-- rodapé -->
+    <footer class="rodape">
+        <div class="rodape-texto">
+            <p>Todos os direitos reservados &copy; 2023 Triagem</p>
+        </div>
+
+        <div class="rodape-icone">
+            <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- revelar rolagem -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- js dgitando -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- customização JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

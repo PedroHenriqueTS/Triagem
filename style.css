@@ -50,6 +50,10 @@ section {
     border-bottom: .1rem solid rgb(0, 0, .2);
 }
 
+.img {
+    width: 7rem;
+}
+
 .logo-imagem {
     width: 4vw;
     margin-left: 21px;

@@ -53,6 +53,7 @@ section {
 .logo-imagem {
     width: 4vw;
     margin-left: 21px;
+    animation: floatImagem 4s ease-in-out infinite;
 }
 
 .navbar a {
@@ -81,13 +82,6 @@ section {
       opacity: 1;
     }
   }
-
-
-.logo-imagem {
-    width: 7rem;
-    animation: floatImagem 4s ease-in-out infinite;
-}
-
 
 @keyframes floatImagem {
     0% {
